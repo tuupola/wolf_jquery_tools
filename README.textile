@@ -1,0 +1,31 @@
+h3. What?
+
+Plugin to add "jQuery Tools":http://flowplayer.org/tools/ to "Frog CMS":http://www.madebyfrog.com/ admin interface. 
+
+
+h3. Install 
+
+Copy plugin files to _frog/plugins/jquery_tools/_ folder.
+
+<pre>
+cd frog/plugins/
+git clone git://github.com/tuupola/frog_jquery_tools.git jquery_tools_
+</pre>
+
+or
+
+<pre>
+cd frog/plugins/
+wget http://www.appelsiini.net/download/frog_jquery_tools.tar.gz
+tar -xzvf frog_jquery_ui.tar.gz
+</pre>
+
+Go to admin and enable jQuery tools plugin.
+
+h3. Usage
+
+<pre>
+jQuery(function($) {
+    $("div.scrollable").scrollable();
+});
+</pre>
